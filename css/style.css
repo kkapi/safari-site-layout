@@ -90,3 +90,20 @@ a{
 .header__arrow{
     text-align: center;
 }
+.directions{
+    padding: 100px 0;
+}
+.direction__text{
+    font-size: 16px;
+    border: 1px solid #D9D9DE;
+    border-top: none;
+    padding: 10px 19px 14px;
+}
+.direction__inner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 32px;
+}
+.direction__img{
+    display: block;
+}
